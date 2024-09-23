@@ -1,0 +1,71 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    gap: 20px; /* Расстояние между элементами */
+}
+
+.contact p {
+    margin: 0;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 200px; /* Фиксированная ширина для блока с именем */
+}
+
+.contact-number-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    width: 150px; /* Фиксированная ширина для блока с номером телефона */
+}
+
+.contact-number {
+    text-align: left;
+}
+
+.contact button {
+    padding: 5px 15px;
+    background-color: #dc3545;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 90px; /* Фиксированная ширина кнопки */
+    text-align: center;
+}
+
+.contact button:hover {
+    background-color: #c82333;
+}
+
+.contact-icon {
+    width: 20px;
+    height: 20px;
+    color: #1e7900;
+}
+
+.contact-number-icon {
+    width: 20px;
+    height: 20px;
+    color: #1e7900;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 600px;
+}
