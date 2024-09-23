@@ -9,7 +9,7 @@
     background-color: #f9f9f9;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     font-size: 1rem;
-    gap: 20px; /* Расстояние между элементами */
+    gap: 20px;
 }
 
 .contact p {
@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    width: 200px; /* Фиксированная ширина для блока с именем */
+    width: 200px;
 }
 
 .contact-number-wrapper {
@@ -28,7 +28,7 @@
     align-items: center;
     gap: 10px;
     white-space: nowrap;
-    width: 150px; /* Фиксированная ширина для блока с номером телефона */
+    width: 150px;
 }
 
 .contact-number {
@@ -43,7 +43,7 @@
     color: white;
     cursor: pointer;
     font-size: 0.9rem;
-    width: 90px; /* Фиксированная ширина кнопки */
+    width: 90px;
     text-align: center;
 }
 
